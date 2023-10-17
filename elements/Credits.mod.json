@@ -16,7 +16,7 @@
             "falpha": 0.0
           },
           "x": 137,
-          "y": 18
+          "y": 150
         }
       },
       {
@@ -30,13 +30,13 @@
             "value": -26368,
             "falpha": 0.0
           },
-          "x": 192,
-          "y": 28
+          "x": 183,
+          "y": 163
         }
       }
     ],
     "baseTexture": "",
-    "overlayTarget": "DownloadTerrain",
+    "overlayTarget": "CreateWorld",
     "gridSettings": {
       "sx": 18,
       "sy": 18,

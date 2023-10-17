@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "camman_but_blocks_are_big",
+  "version": "1.0.0",
+  "name": "Camman But Blocks Are Big",
+  "description": "Adds Big Blocks from Camman18's video Minecraft but blocks are bigger",
+  "authors": [
+    "The_WereF0X"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/zGjRZWeSdw",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.cammanbutblocksarebig.CammanButBlocksAreBigMod"
+    ],
+    "client": [
+      "net.mcreator.cammanbutblocksarebig.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}

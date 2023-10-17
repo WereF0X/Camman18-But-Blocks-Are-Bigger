@@ -32,7 +32,7 @@ public class GiveCreditsProcedure {
 				_ent.getServer().getCommands().performPrefixedCommand(
 						new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
 								_ent.level().getServer(), _ent),
-						"/give @p minecraft:oak_sign{BlockEntityTag:{Text1:'{\"text\":\"Camman18 \\\\\"But\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"tellraw @a [\\\\\"\\\\\",{\\\\\"text\\\\\":\\\\\"Enjoy :)\\\\\",\\\\\"color\\\\\":\\\\\"green\\\\\"},{\\\\\"text\\\\\":\\\\\"\\\\\\\\n\\\\\"},{\\\\\"text\\\\\":\\\\\"WARNING:\\\\\",\\\\\"bold\\\\\":true,\\\\\"color\\\\\":\\\\\"aqua\\\\\"},{\\\\\"text\\\\\":\\\\\"\\\\\\\\nTemporarely Only supports Oak Planks, Oak Logs and Cobblestone\\\\\"}]\"},\"color\":\"#FF0300\"}',Text2:'{\"text\":\"Blocks Are Bigger\\\\\"\",\"color\":\"#FF0300\"}',Text3:'{\"text\":\"Made by \"}',Text4:'{\"text\":\"The_WereF0X\",\"color\":\"#FFA500\"}'},display:{Name:'{\"text\":\"Credits\"}'}}");
+						"/tellraw @a [\"\",{\"text\":\"CAMMAN18BUTBLOCKSAREBIGGER\",\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\"\\n\"},{\"text\":\"CAMMAN18 BUT BLOCKS ARE BIGGER\",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\"\\n\"},{\"text\":\"WARNING:\\nTemporarely only supports:\\n- Oak Planks\\n- Oak Logs\\n- Cobblestone\\nMORE BLOCKS COMING SOON\",\"color\":\"green\"},{\"text\":\"\\n\"},{\"text\":\"Enjoy ;)\",\"color\":\"aqua\"},{\"text\":\"\\n\"},{\"text\":\"Do /credits to have this text again\",\"color\":\"gray\"},{\"text\":\"\\n\"},{\"text\":\"CAMMAN18BUTBLOCKSAREBIGGER\",\"bold\":true,\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\"\\n \"}]");
 			}
 		}
 	}

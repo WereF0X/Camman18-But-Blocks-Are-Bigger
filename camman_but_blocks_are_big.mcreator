@@ -149,6 +149,18 @@
           "src/main/java/net/mcreator/cammanbutblocksarebig/client/screens/CreditsOverlay.java"
         ]
       }
+    },
+    {
+      "name": "Creditscommand",
+      "type": "command",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creditscommand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cammanbutblocksarebig/command/CreditscommandCommand.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -180,7 +192,7 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "neoforge-1.20.1",
     "credits": "The_WereF0X, Camman18",
     "modElementsPackage": "net.mcreator.cammanbutblocksarebig",
     "lockBaseModFiles": false
