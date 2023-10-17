@@ -31,6 +31,26 @@ public class PlanksProcedure {
 			world.setBlock(BlockPos.containing(x - 1, y, z), Blocks.OAK_PLANKS.defaultBlockState(), 3);
 			world.setBlock(BlockPos.containing(x, y - 1, z), Blocks.OAK_PLANKS.defaultBlockState(), 3);
 			world.setBlock(BlockPos.containing(x, y, z - 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x + 1, y + 1, z), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x, y + 1, z + 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x - 1, y - 1, z), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x, y - 1, z - 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x + 1, y + 1, z - 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x + 1, y + 1, z + 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x, y + 1, z - 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x - 1, y + 1, z), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x - 1, y + 1, z - 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x - 1, y + 1, z + 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x + 1, y, z - 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x + 1, y - 1, z - 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x - 1, y - 1, z - 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x - 1, y, z - 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x - 1, y - 1, z + 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x - 1, y, z + 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x, y - 1, z + 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x + 1, y - 1, z + 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x + 1, y, z + 1), Blocks.OAK_PLANKS.defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x + 1, y - 1, z), Blocks.OAK_PLANKS.defaultBlockState(), 3);
 		}
 	}
 }
