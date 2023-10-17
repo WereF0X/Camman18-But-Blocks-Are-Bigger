@@ -1,0 +1,65 @@
+{
+  "mod_elements": [
+    {
+      "name": "Planks",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cammanbutblocksarebig/procedures/PlanksProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "camman_but_blocks_are_big",
+    "modName": "Camman But Blocks Are Big",
+    "version": "1.0.0",
+    "author": "feder, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.cammanbutblocksarebig",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
