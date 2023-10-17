@@ -1,1 +1,6 @@
-{}
+{
+  "gui.camman_but_blocks_are_big.warning_multiplayer.label_servers_without_this_mod_install": "Servers without this mod installed",
+  "gui.camman_but_blocks_are_big.credits.label_by_the_weref0x": "By The_WereF0X",
+  "gui.camman_but_blocks_are_big.warning_multiplayer.label_will_make_the_mod_stop_working": "Will make the mod stop working",
+  "gui.camman_but_blocks_are_big.credits.label_camman18_but_blocks_are_bigger": "Camman18 \"But Blocks Are Bigger\""
+}

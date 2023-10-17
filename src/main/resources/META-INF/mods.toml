@@ -1,14 +1,16 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Academic Free License v3.0"
+license="All Rights Reserved"
 
 [[mods]]
 modId="camman_but_blocks_are_big"
 version="1.0.0"
 displayName="Camman But Blocks Are Big"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="feder, MCreator"
+credits="The_WereF0X, Camman18"
+displayURL="https://discord.gg/zGjRZWeSdw"
+updateJSONURL="https://discord.gg/zGjRZWeSdw"
+authors="The_WereF0X"
+description="Adds Big Blocks from Camman18's video Minecraft but blocks are bigger"
 
 [[dependencies.camman_but_blocks_are_big]]
     modId="minecraft"

@@ -1,0 +1,7 @@
+{
+  "_fv": 47,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"107\" y=\"57\"><field name=\"trigger\">player_log_in</field><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">/give @p minecraft:oak_sign{BlockEntityTag:{Text1:'{\"text\":\"Camman18 \\\\\"But\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"tellraw @a [\\\\\"\\\\\",{\\\\\"text\\\\\":\\\\\"Enjoy :)\\\\\",\\\\\"color\\\\\":\\\\\"green\\\\\"},{\\\\\"text\\\\\":\\\\\"\\\\\\\\n\\\\\"},{\\\\\"text\\\\\":\\\\\"WARNING:\\\\\",\\\\\"bold\\\\\":true,\\\\\"color\\\\\":\\\\\"aqua\\\\\"},{\\\\\"text\\\\\":\\\\\"\\\\\\\\nTemporarely Only supports Oak Planks, Oak Logs and Cobblestone\\\\\"}]\"},\"color\":\"#FF0300\"}',Text2:'{\"text\":\"Blocks Are Bigger\\\\\"\",\"color\":\"#FF0300\"}',Text3:'{\"text\":\"Made by \"}',Text4:'{\"text\":\"The_WereF0X\",\"color\":\"#FFA500\"}'},display:{Name:'{\"text\":\"Credits\"}'}}</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_camman18_but_blocks_are_bigger",
+          "text": {
+            "fixedValue": "Camman18 \"But Blocks Are Bigger\""
+          },
+          "color": {
+            "value": -26368,
+            "falpha": 0.0
+          },
+          "x": 137,
+          "y": 18
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_by_the_weref0x",
+          "text": {
+            "fixedValue": "By The_WereF0X"
+          },
+          "color": {
+            "value": -26368,
+            "falpha": 0.0
+          },
+          "x": 192,
+          "y": 28
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "DownloadTerrain",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

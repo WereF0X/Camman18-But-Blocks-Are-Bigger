@@ -3,6 +3,7 @@
     {
       "name": "Planks",
       "type": "procedure",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "planks",
@@ -33,12 +34,132 @@
           }
         ]
       }
+    },
+    {
+      "name": "Logs",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cammanbutblocksarebig/procedures/LogsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cobblestone",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cammanbutblocksarebig/procedures/CobblestoneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiveCredits",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_credits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cammanbutblocksarebig/procedures/GiveCreditsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WarningMultiplayer",
+      "type": "overlay",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warning_multiplayer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cammanbutblocksarebig/client/screens/WarningMultiplayerOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Credits",
+      "type": "overlay",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/cammanbutblocksarebig/client/screens/CreditsOverlay.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "gui.camman_but_blocks_are_big.warning_multiplayer.label_servers_without_this_mod_install": "Servers without this mod installed",
+      "gui.camman_but_blocks_are_big.credits.label_by_the_weref0x": "By The_WereF0X",
+      "gui.camman_but_blocks_are_big.warning_multiplayer.label_will_make_the_mod_stop_working": "Will make the mod stop working",
+      "gui.camman_but_blocks_are_big.credits.label_camman18_but_blocks_are_bigger": "Camman18 \"But Blocks Are Bigger\""
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -48,16 +169,19 @@
     "modid": "camman_but_blocks_are_big",
     "modName": "Camman But Blocks Are Big",
     "version": "1.0.0",
-    "author": "feder, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "description": "Adds Big Blocks from Camman18\u0027s video Minecraft but blocks are bigger",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/zGjRZWeSdw",
+    "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "updateURL": "https://discord.gg/zGjRZWeSdw",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "The_WereF0X, Camman18",
     "modElementsPackage": "net.mcreator.cammanbutblocksarebig",
     "lockBaseModFiles": false
   },
