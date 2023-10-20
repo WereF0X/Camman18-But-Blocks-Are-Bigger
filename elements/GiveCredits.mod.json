@@ -1,7 +1,0 @@
-{
-  "_fv": 47,
-  "_type": "procedure",
-  "definition": {
-    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"107\" y=\"57\"><field name=\"trigger\">player_log_in</field><next><block type=\"entity_execute_command\"><value name=\"command\"><block type=\"text\"><field name=\"TEXT\">/tellraw @a [\"\",{\"text\":\"CAMMAN18BUTBLOCKSAREBIGGER\",\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\"\\n\"},{\"text\":\"CAMMAN18 BUT BLOCKS ARE BIGGER\",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\"\\n\"},{\"text\":\"WARNING:\\nTemporarely only supports:\\n- Oak Planks\\n- Oak Logs\\n- Cobblestone\\nMORE BLOCKS COMING SOON\",\"color\":\"green\"},{\"text\":\"\\n\"},{\"text\":\"Enjoy ;)\",\"color\":\"aqua\"},{\"text\":\"\\n\"},{\"text\":\"Do /credits to have this text again\",\"color\":\"gray\"},{\"text\":\"\\n\"},{\"text\":\"CAMMAN18BUTBLOCKSAREBIGGER\",\"bold\":true,\"obfuscated\":true,\"color\":\"dark_red\"},{\"text\":\"\\n \"}]</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></next></block></xml>"
-  }
-}

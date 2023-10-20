@@ -106,25 +106,6 @@
       }
     },
     {
-      "name": "GiveCredits",
-      "type": "procedure",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "give_credits",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/cammanbutblocksarebig/procedures/GiveCreditsProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "WarningMultiplayer",
       "type": "overlay",
       "sortid": 6,
@@ -151,14 +132,37 @@
       }
     },
     {
-      "name": "Creditscommand",
-      "type": "command",
+      "name": "Mabe",
+      "type": "procedure",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "creditscommand",
+      "registry_name": "mabe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/cammanbutblocksarebig/command/CreditscommandCommand.java"
+          "src/main/java/net/mcreator/cammanbutblocksarebig/procedures/MabeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
